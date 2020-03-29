@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+#header {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 60px;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    div {
+      margin-right: 20px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #7d6e5c;
+  }
+
+  #account {
+    background-color: #7d6e5c;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+}

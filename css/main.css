@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+#header {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 60px;
+}
+
+#header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header nav div {
+  margin-right: 20px;
+}
+
+#header a {
+  text-decoration: none;
+  color: black;
+}
+
+#header a:hover {
+  text-decoration: underline;
+  color: #7d6e5c;
+}
+
+#header #account {
+  background-color: #7d6e5c;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=main.css.map */
