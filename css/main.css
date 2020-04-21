@@ -29,10 +29,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 15px;
 }
 
 #header nav div {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 #header a {
@@ -46,10 +47,141 @@
 }
 
 #header #account {
-  background-color: #7d6e5c;
+  background-color: #f3f3f3;
   border: none;
   border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+#main {
+  text-align: center;
+}
+
+#main #logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#main #search-icon {
+  height: 15px;
+}
+
+#main #record-icon {
+  height: 20px;
+}
+
+#main #searchfield {
+  height: 46px;
+  width: 370px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+#main #searchbar {
+  height: 46px;
+  width: 480px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: calc(50% - 240px);
+  border-radius: 23px;
+  border: 1px solid #dfe0e5;
+}
+
+#main #searchbar input {
+  background-color: transparent;
+}
+
+#main #searchbar:hover {
+  -webkit-box-shadow: 0 2px 8px #c4c4c4;
+          box-shadow: 0 2px 8px #c4c4c4;
+}
+
+#main #buttons {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+#main #buttons a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 4px;
+  color: #606367;
+  background-color: #f5f5f5;
+}
+
+#main p {
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+#main p a {
+  color: #1d10a6;
+  text-decoration: none;
+  margin: 0 3px;
+}
+
+#main p a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+}
+
+#footer div {
+  height: 40px;
+  font-size: 15px;
+  color: #6f6e6e;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e3e3e3;
+  padding: 0 30px;
+}
+
+#footer #links-left {
+  float: left;
+}
+
+#footer #links-right {
+  float: right;
+}
+
+#footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#footer li:last-child {
+  margin-right: 0;
+}
+
+#footer a {
+  color: #6f6e6e;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

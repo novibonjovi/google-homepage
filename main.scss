@@ -15,9 +15,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 15px;
 
     div {
-      margin-right: 20px;
+      margin-right: 15px;
     }
   }
 
@@ -32,10 +33,131 @@
   }
 
   #account {
-    background-color: #7d6e5c;
+    background-color: #f3f3f3;
     border: none;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+  }
+}
+
+#main {
+  text-align: center;
+
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+  #search-icon {
+    height: 15px;
+  }
+
+  #record-icon {
+    height: 20px;
+  }
+
+  #searchfield {
+    height: 46px;
+    width: 370px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  #searchbar {
+    height: 46px;
+    width: 480px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: calc(50% - 240px);
+    border-radius: 23px;
+    border: 1px solid #dfe0e5;
+
+    input {
+      background-color: transparent;
+    }
+  }
+
+  #searchbar:hover {
+    box-shadow: 0 2px 8px #c4c4c4;
+  }
+
+  #buttons {
+    margin-top: 40px;
+    font-size: 14px;
+
+    a {
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      border-radius: 4px;
+      color: #606367;
+      background-color: #f5f5f5;
+    }
+  }
+
+  p {
+    margin-top: 40px;
+    font-size: 13px;
+
+    a {
+      color: #1d10a6;
+      text-decoration: none;
+      margin: 0 3px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+
+  div {
+    height: 40px;
+    font-size: 15px;
+    color: #6f6e6e;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e3e3e3;
+    padding: 0 30px;
+  }
+
+  #links-left {
+    float: left;
+  }
+
+  #links-right {
+    float: right;
+  }
+
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+
+  a {
+    color: #6f6e6e;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
